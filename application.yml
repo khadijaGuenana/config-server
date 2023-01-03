@@ -1,0 +1,8 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-Zone: https://rocky-refuge-02784.herokuapp.com/eureka
+  instance:
+    hostname: localhost
